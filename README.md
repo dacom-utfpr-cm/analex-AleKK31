@@ -66,7 +66,7 @@ No projeto está sendo disponibilizado arquivos de exemplos em `C-` para testes.
 Para executar um teste em específico a implementação do analisador léxico `analex.py` pode ser chamada, o parâmetro `-k` pode ser utilizado para que somente _tokens_ e _chaves de erros_ sejam impressas.
 
 ```bash
-$ python analex.py -k prog-002.cm
+$ python analex.py -k tests/prog-002.cm
 INT
 ID
 LPAREN
