@@ -1,3 +1,4 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/6ZHtfd4V)
 # template-projeto-analex-bcc5003
 Este repositório contém o código inicial de referência para o desenvolvimento da fase de Análise Léxica do Projeto do Compilador para a linguagem TPP.
 
@@ -65,7 +66,7 @@ No projeto está sendo disponibilizado arquivos de exemplos em `C-` para testes.
 Para executar um teste em específico a implementação do analisador léxico `analex.py` pode ser chamada, o parâmetro `-k` pode ser utilizado para que somente _tokens_ e _chaves de erros_ sejam impressas.
 
 ```bash
-$ python analex.py -k prog-002.cm
+$ python analex.py -k tests/prog-002.cm
 INT
 ID
 LPAREN
